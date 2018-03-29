@@ -1,9 +1,16 @@
-def  calculator（a，b，c）：
-    if（c == “ + ”）：
-        return（int（a）+ int（b））
-    if（c == “ - ”）：
-        return（int（a）- int（b））
-    if（c == “ * ”）：
-        return（int（a）* int（b））
-    if（c == “ / ”）：
-        返回（int（a）/ int（b））
+
+# coding: utf-8
+
+# In[ ]:
+
+
+def answer(a,b,f):
+    if f == '+':
+        return(a+b)
+    elif f =='-':
+        return(a-b)
+    elif f =='*':
+        return(a*b)
+    elif f =='/':
+        return(a/b)
+
